@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",               // コンパイル先のJavaScriptのバージョン
+    "module": "commonjs",          // モジュールシステム
+    "types": ["node"],
+    "strict": true,                // 厳密な型チェック
+    "esModuleInterop": true,       // ESモジュールのインポートをサポート
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"],     // コンパイル対象のファイルパス
+  "exclude": ["node_modules"]     // 除外するディレクトリ
+}
